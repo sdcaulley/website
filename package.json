@@ -1,0 +1,15 @@
+{
+  "name": "lit-scaffold",
+  "version": "1.0.0",
+  "description": "A scoffold for starting Lit projects",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {},
+  "keywords": [],
+  "author": "sdcaulley",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "eslint": "^8.45.0"
+  },
+  "dependencies": {}
+}
