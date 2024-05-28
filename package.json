@@ -1,15 +1,33 @@
 {
-  "name": "lit-scaffold",
+  "name": "website",
   "version": "1.0.0",
-  "description": "A scoffold for starting Lit projects",
+  "description": "A personal website",
   "main": "index.js",
   "type": "module",
-  "scripts": {},
-  "keywords": [],
+  "scripts": {
+    "start": "wds --node-resolve --app-index public/index.html --open --watch"
+  },
+  "keywords": [
+    "nodejs",
+    "mariadb",
+    "lit",
+    "web components"
+  ],
   "author": "sdcaulley",
   "license": "GPL-3.0",
   "devDependencies": {
-    "eslint": "^8.45.0"
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "eslint": "^8.45.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-lit": "^1.13.0",
+    "eslint-plugin-sql": "^2.5.0",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-watch": "^1.0.4"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@dotenvx/dotenvx": "^0.44.0",
+    "mariadb": "^3.3.0"
+  }
 }
