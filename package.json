@@ -2,10 +2,10 @@
   "name": "website",
   "version": "1.0.0",
   "description": "A personal website",
-  "main": "index.js",
+  "main": "public/index.html",
   "type": "module",
   "scripts": {
-    "start": "wds --node-resolve --app-index public/index.html --open --watch"
+    "start": "web-dev-server --node-resolve --app-index public/index.html --open"
   },
   "keywords": [
     "nodejs",
@@ -18,9 +18,13 @@
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-terser": "^0.4.4",
-    "eslint": "^8.45.0",
-    "eslint-config-google": "^0.14.0",
+    "@web/dev-server": "^0.0.6",
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-lit": "^1.13.0",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.2.0",
     "eslint-plugin-sql": "^2.5.0",
     "rollup-plugin-copy": "^3.5.0",
     "rollup-plugin-livereload": "^2.0.5",
