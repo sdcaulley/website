@@ -3,35 +3,23 @@
   "version": "1.0.0",
   "description": "A personal website",
   "main": "public/index.html",
-  "type": "module",
   "scripts": {
-    "start": "web-dev-server --node-resolve --app-index public/index.html --open"
+    "dev": "eleventy --serve",
+    "start": "eleventy"
   },
   "keywords": [
-    "nodejs",
-    "mariadb",
-    "lit",
-    "web components"
+    "eleventy",
+    "11ty"
   ],
   "author": "sdcaulley",
   "license": "GPL-3.0",
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "^15.2.3",
-    "@rollup/plugin-terser": "^0.4.4",
-    "@web/dev-server": "^0.0.6",
-    "eslint": "^8.57.0",
-    "eslint-config-standard": "^17.1.0",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-lit": "^1.13.0",
-    "eslint-plugin-n": "^16.6.2",
-    "eslint-plugin-promise": "^6.2.0",
-    "eslint-plugin-sql": "^2.5.0",
-    "rollup-plugin-copy": "^3.5.0",
-    "rollup-plugin-livereload": "^2.0.5",
-    "rollup-plugin-watch": "^1.0.4"
+    "@eslint/js": "^9.7.0",
+    "eslint": "^9.7.0",
+    "eslint-config-google": "^0.14.0",
+    "globals": "^15.8.0"
   },
   "dependencies": {
-    "@dotenvx/dotenvx": "^0.44.0",
-    "mariadb": "^3.3.0"
+    "@11ty/eleventy": "^2.0.1"
   }
 }

@@ -1,13 +1,13 @@
-import config from "eslint-config-standard";
+import globals from "globals";
+import js from '@eslint/js';
+import * as google from 'eslint-config-google';
 
 export default [
-  ...[].concat(config),
+  js.configs.recommended,
+  google,
   {
-    rules: {
-      indent: ["error", 2],
-      semi: ["error", "always"],
-      "no-extra-semi": "error",
-      quotes: ["error", "single"],
-    },
-  },
+    files: ["**/*.js"],
+    languageOptions: { sourceType: "commonjs" },
+    globals: {...globals.browser, ...globals.node} 
+  }
 ];
