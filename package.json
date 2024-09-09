@@ -1,0 +1,19 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "dev": "eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sdcaulley",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "eslint": "^9.9.1",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-jsdoc": "^50.2.2"
+  }
+}

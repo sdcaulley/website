@@ -1,0 +1,55 @@
+body {
+  background-color: snow;
+  box-sizing: border-box;
+  font-family: 'Economica', sans-serif;
+  font-size: 100%;
+  margin: auto;
+  max-width: 1000px;
+  padding: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  box-sizing: border-box;
+  margin: auto;
+  text-align: center;
+}
+
+nav {
+  box-sizing: border-box;
+  margin: auto;
+}
+
+menu,
+ul {
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+blockquote {
+  border: 2px solid;
+  border-radius: 1em;
+  box-sizing: border-box;
+  margin: 0.5em auto;
+  padding: 1em;
+  text-align: center;
+  width: 50%;
+}
+
+dfn {
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#main {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}

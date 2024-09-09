@@ -1,0 +1,12 @@
+---
+layout: 'layouts/base.html'
+title: 'home'
+---
+<main>
+  <h3>Recent Posts</h3>
+  {% for recent in recents %}
+  {% include "includes/home_post.html",
+  title: recent.title,
+  content: recent.content %}
+  {% endfor %}
+</main>
