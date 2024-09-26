@@ -1,6 +1,7 @@
 ---
 layout: 'layouts/base.html'
 title: 'about'
+eleventExcludeFromCollections: true
 ---
 
 ### About sdcaulley

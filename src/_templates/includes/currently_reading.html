@@ -1,0 +1,12 @@
+<aside>
+  <h3>Currently Reading</h3>
+  <ul>
+    {% for item in currently_reading %}
+      <li>
+        <strong>Author:</strong> {{ item.author }}
+        <strong>Title:</strong> {{ item.title }}
+      <strong>Topic:</strong> {{ item.topic }}
+      </li>
+    {% endfor %}
+  </ul>
+</aside>

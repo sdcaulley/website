@@ -4,7 +4,7 @@ import jsdoc from 'eslint-plugin-jsdoc';
 
 export default [
   js.configs.recommended,
-  jsdocs.configs['flat/recommended'],
+  jsdoc.configs['flat/recommended'],
   ...[].concat(config),
   {
     files: ['**/*.js'],
