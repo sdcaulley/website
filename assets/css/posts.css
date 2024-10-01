@@ -1,0 +1,15 @@
+blockquote {
+  border: 2px solid;
+  border-radius: 1em;
+  margin: 0.5em auto;
+  padding: 1em;
+  text-align: center;
+  width: 50%;
+}
+
+dfn {
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+

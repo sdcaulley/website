@@ -1,3 +1,6 @@
 @import url('normalize.css');
 @import url('base.css');
 @import url('typography.css');
+@import url('main.css');
+@import url('header.css');
+@import url('posts.css');

@@ -1,0 +1,20 @@
+body {
+  background-color: snow;
+  box-sizing: border-box;
+  font-family: 'Economica', sans-serif;
+  font-size: 100%;
+  margin: auto;
+}
+
+article {
+  border-bottom: 1px solid maroon;
+}
+
+.current-reading {
+  border-bottom: 1px solid maroon;
+  padding: 1em;
+}
+
+#flex-container {
+  padding: 1em;
+}

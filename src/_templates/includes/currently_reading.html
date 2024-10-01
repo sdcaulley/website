@@ -2,10 +2,12 @@
   <h3>Currently Reading</h3>
   <ul>
     {% for item in currently_reading %}
-      <li>
-        <strong>Author:</strong> {{ item.author }}
-        <strong>Title:</strong> {{ item.title }}
-      <strong>Topic:</strong> {{ item.topic }}
+        <li class="current-reading">
+      <a href="{{ item.url }}" target="_blank">
+        <strong>Author:</strong> {{ item.author }} <br>
+        <strong>Title:</strong> {{ item.title }} <br>
+        <strong>Topic:</strong> {{ item.topic }} <br>
+      </a>
       </li>
     {% endfor %}
   </ul>

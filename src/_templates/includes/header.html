@@ -1,5 +1,13 @@
-<header>
-    {% include 'includes/navigation.html' %}
-    <h1>sdcaulley</h1>
-    <h2>a heretic writes here</h2>
+<header class="header">
+  <section class="logo"> 
+    <a href="/">
+      <p>sdcaulley</p>
+      <p>nonconforming</p>
+    </a>
+  </section>
+  <input class="side-menu" type="checkbox" id="side-menu" />
+  <label class="hamb" for="side-menu">
+    <span class="hamb-line"></span>
+  </label>
+  {% include 'includes/navigation.html' %}
 </header>

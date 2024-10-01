@@ -1,14 +1,17 @@
 ---
 layout: 'layouts/base.html'
 title: 'favorites'
-eleventExcludeFromCollections: true
+eleventyExcludeFromCollections: true
 ---
-## Favorites
+<main>
+    <h1>Favorites</h1>
 
-{% for favorite in favorites %}
- {% include "includes/favorites.html",
-  name: favorite.name,
-  type: favorite.type,
-  description: favorite.description,
-  image: favorite.image %}
-{% endfor %}
+    {% for favorite in favorites %}
+        {% include "includes/favorites.html",
+            name: favorite.name,
+            type: favorite.type,
+            description: favorite.description,
+            url: favorite.url,
+            image: favorite.image %}
+    {% endfor %}
+</main>

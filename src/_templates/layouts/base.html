@@ -12,8 +12,10 @@
   </head>
   <body>
     {% include 'includes/header.html' %}
-    {{ content }}
-    {% include 'includes/currently_reading.html %}
+    <div id="flex-container">
+      {{ content }}
+      {% include 'includes/currently_reading.html' %}
+    </div>
     {% include 'includes/footer.html' %}
   </body>
 </html>
