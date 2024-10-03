@@ -132,3 +132,4 @@ dist
 # Eleventy
 _site/
 _data/
+assets/images/posts/*.**

@@ -6,12 +6,21 @@ body {
   margin: auto;
 }
 
+main {
+  margin-bottom: 2em;
+}
+
 article {
   border-bottom: 1px solid maroon;
 }
 
+aside h3 {
+  margin: 0 auto;
+}
+
 .current-reading {
   border-bottom: 1px solid maroon;
+  margin: 0 auto;
   padding: 1em;
 }
 

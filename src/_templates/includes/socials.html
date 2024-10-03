@@ -1,0 +1,10 @@
+<menu>
+  {% for item in socials %}
+    <li>
+      <a href={{ item.url }} target="_blank">
+        <img src={{ item.logo }} alt={{ item.site }} />
+      </a>
+  </li>
+  {% endfor %}
+</menu>
+

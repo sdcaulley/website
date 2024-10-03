@@ -1,16 +1,20 @@
 <nav class="nav">
   <menu class="menu">
+    {% for item in navigation %}
     <li>
-      <a href="/">Home</a>
+      <a href={{ item.href }}>{{ item.item }}</a>
+      {% if item.children %}
+        <menu class="menu sub-menu">
+        {% for child in item.children %}
+            <li>
+              <a href={{ child.href }}>
+                {{ child.item }}
+              </a>
+            </li>
+          {% endfor %}
+        </menu>
+      {% endif %}
     </li>
-    <li>
-      <a href="/about">About</a>
-    </li>
-    <li>
-      <a href="/favorites">Favorites</a>
-    </li>
-    <li>
-      <a href="/contact">Contact</a>
-    </li>
+    {% endfor %}
   </menu>
 </nav>

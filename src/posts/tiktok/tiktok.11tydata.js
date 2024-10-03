@@ -1,5 +1,5 @@
 module.exports = {
-  layout: 'layouts/base.html',
+  layout: 'layouts/post.html',
   tags: ['tiktok'],
-  author: 'sdcaulley'
+  author: 'sdcaulley',
 };

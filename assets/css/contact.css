@@ -1,0 +1,12 @@
+#contact-socials {
+  margin: 0 auto;
+  width: 100%;
+}
+
+#contact-socials menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;
+}

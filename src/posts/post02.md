@@ -4,9 +4,6 @@ date: "2024-09-12"
 updated: "2024-09-12"
 descrption: >
     This is a description of Post 02.
-categories:
-    - "blog"
-    - "coding"
 ---
 ## This is a different headline
 
