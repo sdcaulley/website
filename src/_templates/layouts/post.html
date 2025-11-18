@@ -7,8 +7,8 @@ layout: 'layouts/base.html'
   <p>By {{ author }} | Posted on {{ dateString }}</p>
 
   {{ content }}
-  {% assign nextPost = collections.post | getNextCollectionItem %}
-  {% assign previousPost = collections.post | getPreviousCollectionItem %}
+  {% set nextPost = collections.posts | getNextCollectionItem %}
+  {% set previousPost = collections.posts | getPreviousCollectionItem %}
   
   <section class="pagination">
   {% if previousPost %}

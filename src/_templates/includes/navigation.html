@@ -1,6 +1,6 @@
 <nav class="nav">
   <menu class="menu">
-    {% for item in navigation %}
+    {% for item in site.navigation %}
     <li>
       <a href={{ item.href }}>{{ item.item }}</a>
       {% if item.children %}
