@@ -1,50 +1,41 @@
 h1 {
-  font-family: "Josefin Slab", serif;
+  font-family: serif;
   font-optical-sizing: auto;
-  font-size: 4.88em;
 }
 
 h2 {
-  font-family: "Josefin Slab", serif;
+  font-family: serif;
   font-optical-sizing: auto;
-  font-size: 3.05em;
 }
 
 h3 {
-  font-family: "Josefin Slab", serif;
+  font-family: serif;
   font-optical-sizing: auto;
-  font-size: 2.44em;
 }
 
 h4 {
-  font-family: "Josefin Slab", serif;
+  font-family: serif;
   font-optical-sizing: auto;
-  font-size: 1.72em;
 }
 
 h5 {
-  font-family: "Josefin Slab", serif;
+  font-family: serif;
   font-optical-sizing: auto;
-  font-size: 1.22em;
 }
 
 .body2 {
-  font-family: "Economica", sans-serif;
-    font-size: 1.16em;
+  font-family: sans-serif;
 }
 
 .button {
-  font-family: "Economica", sans-serif;
+  font-family: sans-serif;
   font-weight: medium;
-  font-size: 100%;
 }
 
 .caption {
-  font-family: "Economica", sans-serif;
-  font-size: 0.88em;
+  font-family: sans-serif;
 }
 
 .overline {
-  font-family: "Economica", sans-serif;
-  font-size: 0.72em;
+  font-family: sans-serif;
 }
